@@ -19,7 +19,7 @@ function computerPlay() {
     const randomChoice = Math.floor(Math.random() * choices.length);
     return choices[randomChoice];
 }
-
+ 
 
 function playRound(playerSelection, computerSelection) {
     if(playerSelection === computerSelection) {
